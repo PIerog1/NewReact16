@@ -1,0 +1,8 @@
+no bo komponenty nie maja dostępu do stanu innego komponentu
+
+2 
+stan przenosi się do wspólnego rodzica
+rodzic trzyma stan (np. licznik)
+przekazuje go do Licznika jako props
+i przekazuje funkcję do Przycisku jako props
+Przycisk zmienia stan przez tę funkcję
